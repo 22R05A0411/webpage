@@ -1,0 +1,283 @@
+<<<<<<< HEAD
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Agbalumo", system-ui;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+}
+.navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 488px;
+    z-index: -1;
+    opacity: 0.890;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    font-size: 23px;
+
+}
+.items{
+    margin: 13px;
+    color: white;
+    padding: 1px 42px;
+}
+.items:hover{
+    color: orange;
+    background-color: white;
+    border-radius: 40px;
+    /* padding: 32px 55px; */
+}
+.logo{
+    color: white;
+    font-size: 4rem;
+}
+.home{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    display: block;
+    width: 134px;
+    margin: auto;
+    padding: 3px;
+    font-size: 27px;
+    border-radius: 28px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+.home::before{
+    content: "";
+    background: url('images1/background1.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    z-index: -1;
+    opacity: 0.768;
+}
+.homestyle{
+    color: white;
+    display: block;
+    margin: auto;
+    height: 392px;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    padding: 12px 13px 25px 13px;
+}
+.menu{
+    background-color: black;
+}
+#serives{
+    display: flex;
+
+}
+.box {
+    display: block;
+    width: 350px;
+    border: 2px solid white;
+    padding: 42px 31px;
+    margin: 45px;
+    border-radius: 105px;
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 60px;}
+.box:hover{
+    height: 380px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 3px 12px;
+}
+.h-primary{
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 0px;
+    margin: auto;
+}
+.booking{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 540px;
+}
+#contact-box{
+    border: 2px solid white;
+    border-radius: 60px;
+    width: 344px;
+    height: 344px;
+    margin: auto;
+    padding: 0px 12px;
+}
+.form-group {
+    padding: 3px 12px;
+    margin: 29px;
+    border-radius: 30px;
+}
+.end{
+    text-align: center;
+}
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Agbalumo", system-ui;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+}
+.navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 488px;
+    z-index: -1;
+    opacity: 0.890;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    font-size: 23px;
+
+}
+.items{
+    margin: 13px;
+    color: white;
+    padding: 1px 42px;
+}
+.items:hover{
+    color: orange;
+    background-color: white;
+    border-radius: 40px;
+    /* padding: 32px 55px; */
+}
+.logo{
+    color: white;
+    font-size: 4rem;
+}
+.home{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    display: block;
+    width: 134px;
+    margin: auto;
+    padding: 3px;
+    font-size: 27px;
+    border-radius: 28px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+.home::before{
+    content: "";
+    background: url('images1/background1.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    z-index: -1;
+    opacity: 0.768;
+}
+.homestyle{
+    color: white;
+    display: block;
+    margin: auto;
+    height: 392px;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    padding: 12px 13px 25px 13px;
+}
+.menu{
+    background-color: black;
+}
+#serives{
+    display: flex;
+
+}
+.box {
+    display: block;
+    width: 350px;
+    border: 2px solid white;
+    padding: 42px 31px;
+    margin: 45px;
+    border-radius: 105px;
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 60px;}
+.box:hover{
+    height: 380px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 3px 12px;
+}
+.h-primary{
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 0px;
+    margin: auto;
+}
+.booking{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 540px;
+}
+#contact-box{
+    border: 2px solid white;
+    border-radius: 60px;
+    width: 344px;
+    height: 344px;
+    margin: auto;
+    padding: 0px 12px;
+}
+.form-group {
+    padding: 3px 12px;
+    margin: 29px;
+    border-radius: 30px;
+}
+.end{
+    text-align: center;
+}
+>>>>>>> eac33acbea2a75166bf09b80d282c5f02df8c5cc
